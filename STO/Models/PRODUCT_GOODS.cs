@@ -7,7 +7,7 @@ namespace STO.Models
 {
     public class PRODUCT_GOODS
     {
-        public int IDGoods { get; set; }
-        public int IDProduct { get; set; }
+        public IEnumerable<GOODS> Goods { get; set; }
+        public IEnumerable<Product> Product { get; set; }
     }
 }

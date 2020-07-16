@@ -7,7 +7,7 @@ namespace STO.Models
 {
     public class CLIENT_CART
     {
-        public int IDClient { get; set; }
-        public int IDCart { get; set; }
+        public IEnumerable<CLIENT> Client { get; set; }
+        public IEnumerable<CART> Cart { get; set; }
     }
 }

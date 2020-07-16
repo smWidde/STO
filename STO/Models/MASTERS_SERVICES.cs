@@ -7,7 +7,7 @@ namespace STO.Models
 {
     public class MASTERS_SERVICES
     {
-        public int IDMaster { get; set; }
-        public int IDService { get; set; }
+        public IEnumerable<Masters> Master { get; set; }
+        public IEnumerable<Services> Service { get; set; }
     }
 }

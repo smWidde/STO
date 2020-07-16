@@ -5,9 +5,9 @@ using System.Web;
 
 namespace STO.Models
 {
-    public class SERVICES
+    public class Services
     {
         public int ID { get; set; }
-        public int ProductId { get; set; }
+        public IEnumerable<Product> Product { get; set; }
     }
 }

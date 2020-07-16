@@ -9,6 +9,6 @@ namespace STO.Models
     {
         public int ID { get; set; }
         public int QUANTITY { get; set; }
-        public int IdProduct { get; set; }
+        public IEnumerable<Product> Product { get; set; }
     }
 }
